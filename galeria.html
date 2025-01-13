@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Strona o 7 cudach natury">
+    <meta name="keywords" content="Seven nature wonders, nature, wonder, natura, cuda">
+    <meta name="author" content="Aleksander Szostak">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Cudów Natury</title>
+    <link rel ="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="logo">
+        <h1 class="tekstlogo" >7 Cudów Natury</h1>
+    </div>  
+    <div class="nawigacja">
+        <div class="navold">
+            <h1 class="nawnaglowek"> Nawigacja </h1>
+            <a class="link" href="Index.html">Strona Główna</a><br>
+        <a class="link" href="Formularz.html" >Formularz</a><br>
+        <a class="link" href="cud1.html">Wielki Kanion Kolorado</a><br>
+        <a class="link" href="cud2.html">Amazonka</a><br>
+        <a class="link" href="cud3.html">Wodospad Niagara</a><br>
+        <a class="link" href="cud4.html">Zorza polarna </a><br>
+        <a class="link" href="cud5.html">Wodospady Wiktorii</a><br>
+        <a class="link" href="cud6.html">Mount Everest</a><br>
+        <a class="link" href="cud7.html">Wielka Rafa Koralowa</a><br>
+            </div>
+        <div class="dropdown">
+            <button class="dropbtn">Nawigacja</button>
+            <div class="dropdown-content">
+        <a class="link2" href="Index.html">Strona Główna</a><br>
+        <a class="link2" href="Formularz.html" >Formularz</a><br>
+        <a class="link2" href="cud1.html">Wielki Kanion Kolorado</a><br>
+        <a class="link2" href="cud2.html">Amazonka</a><br>
+        <a class="link2" href="cud3.html">Wodospad Niagara</a><br>
+        <a class="link2" href="cud4.html">Zorza polarna </a><br>
+        <a class="link2" href="cud5.html">Wodospady Wiktorii</a><br>
+        <a class="link2" href="cud6.html">Mount Everest</a><br>
+        <a class="link2" href="cud7.html">Wielka Rafa Koralowa</a><br>
+        </div>
+        </div>
+    </div>
+    <div class="tresc">
+        <div class="container">
+    
+            <div class="mySlides">
+                <div class="numbertext">1 / 7</div>
+                <img src="pliki/amazonka_d.png" style="width:100%" alt="zdjęcie cud natury: Amazonka">
+            </div>
+    
+            <div class="mySlides">
+                <div class="numbertext">2 / 7</div>
+                <img src="pliki/everest_d.png" style="width:100%" alt="zdjęcie cud natury: Mount Everest">
+            </div>
+    
+            <div class="mySlides">
+                <div class="numbertext">3 / 7</div>
+                <img src="pliki/kanion_d.png" style="width:100%" alt="zdjęcie cud natury: Wielki Kanion">
+            </div>
+    
+            <div class="mySlides">
+                <div class="numbertext">4 / 7</div>
+                <img src="pliki/niagara_d.png" style="width:100%" alt="zdjęcie cud natury: Wodospad Niagara">
+            </div>
+    
+            <div class="mySlides">
+                <div class="numbertext">5 / 7</div>
+                <img src="pliki/rafa_d.jpg" style="width:100%" alt="zdjęcie cud natury: Wielka Rafa Koralowa">
+            </div>
+    
+            <div class="mySlides">
+                <div class="numbertext">6 / 7</div>
+                <img src="pliki/zorza_d.png" style="width:100%" alt="zdjęcie cud natury: Zorza">
+            </div>
+    
+            <div class="mySlides">
+                <div class="numbertext">7 / 7</div>
+                <img src="pliki/wiktoria_d.png" style="width:100%" alt="zdjęcie cud natury: Wodospad Wiktorii">
+            </div>
+    
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+    
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="pliki/amazonka_m.png" onclick="currentSlide(1)" alt="zdjęcie cud natury: Amazonka">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="pliki/everest_m.png" onclick="currentSlide(2)" alt="zdjęcie cud natury: Mount Everest">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="pliki/kanion_m.png" onclick="currentSlide(3)" alt="zdjęcie cud natury: Wielki Kanion">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="pliki/niagara_m.png" onclick="currentSlide(4)" alt="zdjęcie cud natury: Wodospad Niagara">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="pliki/rafa_m.png" onclick="currentSlide(5)" alt="zdjęcie cud natury: Wielka Rafa koralowa ">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="pliki/zorza_m.png" onclick="currentSlide(6)" alt="zdjęcie cud natury: Zorza">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="pliki/wiktoria_m.png" onclick="currentSlide(7)" alt="zdjęcie cud natury: Wodostad Wiktorii">
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+    
+    <div class="clear"></div>
+    <div class="stopka">
+        Aleksander Szostak 2tc
+    </div>
+</body>
+</html>
