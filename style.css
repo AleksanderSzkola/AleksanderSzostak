@@ -374,7 +374,7 @@ margin: 0;
         position: relative;
         animation-name: odbijanie;
         animation-duration: 5s;
-        width: 50%;
+        width: 60%;
         left:50%;
         transform: translate(-50%);
         animation-iteration-count: 2;
