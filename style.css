@@ -452,8 +452,12 @@ margin: 0;
         padding: 0;
         display: flex;
     }
+        .nawigacja{
+        float: right;
+    }
     .tresc{
         background-color:#5d94c2;
+        float: right;
     }
     .tekstlogo{
         margin: 0;
